@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Владислав Марков](https://up.htmlacademy.ru/htmlcss/13/user/11381).
+* Наставник [Евгений Болтян](https://htmlacademy.ru/profile/id83202).
 
 ---
 
