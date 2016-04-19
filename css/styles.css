@@ -12,8 +12,15 @@ h1 {
 }
 
 h2 {
+  font-size: 14px;
+  line-height: 18px;
+
+  font-weight: bold;
+}
+
+.index-content-title {
   font-size: 30px;
   line-height: 42px;
 
-  font-weight: bold;
+  font-weight: bold;    
 }
