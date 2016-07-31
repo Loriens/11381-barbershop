@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
+<body class="inner-page">
     <header class="main-header">
-      <div class="container">
-        <nav class="main-navigaton">
+      <div class="container clearfix">
+        <nav class="main-navigation">
+          <a class="logo-inner" href="index.html">
+            <img src="img/inner-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
+          </a>
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -19,13 +22,13 @@
               <a href="#">Новости</a>
             </li>
             <li>
-              <a href="#">Прайс-лист</a>
+              <a href="price.html">Прайс-лист</a>
+            </li>
+            <li class="active">
+              <span>Магазин</span>
             </li>
             <li>
-              <a href="#">Магазин</a>
-            </li>
-            <li>
-              <a href="#">Контакт</a>
+              <a href="#">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -35,24 +38,22 @@
       </div>
     </header>
     <main class="container">
-      <h1>Набор для путешествий "Baxter of California"</h1>
-      <nav class="breadcrumbs">
-        <ul>
+      <div class="inner-page-title">
+        <h1>Набор для путешествий «Baxter of California»</h1>
+        <ul class="breadcrumbs">
           <li>
-            <a href="#">Главная</a>
+            <a href="index.html">Главная</a>
           </li>
           <li>
-            <a href="#">Магазин</a>
+            <a href="index.html">Магазин</a>
           </li>
           <li>
-            <a href="#">Средства для ухода</a>
+            <a href="index.html">Средства для ухода</a>
           </li>
-          <li>
-            Набор для путешествий "Baxter of California"
-          </li>
+          <li class="current">Набор для путешествий «Baxter of California»</li>
         </ul>
-      </nav>
-      <div class="main-information clearfix">
+      </div>
+      <div class="inner-content clearfix">
         <section class="item-photos">
           <img src="img/shop-item/photo-item-1.jpg" width="460" height="500" alt="Набор для путешествий &quot;Baxter of California&quot;">
           <img src="img/shop-item/photo-item-2.jpg" width="140" height="150" alt="Набор для путешествий &quot;Baxter of California&quot;">
@@ -60,12 +61,16 @@
           <img src="img/shop-item/photo-item-4.jpg" width="140" height="150" alt="Набор для путешествий &quot;Baxter of California&quot;">
         </section>
         <section class="item-description">
-          <p>Есть в наличии</p>
-          <p class="item-vendor-code">Артикул: Dexter-ae</p>
+          <div class="item-description-top clearfix">
+           <p>Есть в наличии</p>
+           <p class="item-vendor-code">Артикул: Dexter-ae</p>
+          </div>
           <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-          <span>2900 руб.</span><a class="btn" href="#">Купить</a>
-          <p>В набор входят:</p>
-          <ul>
+          <div class="item-description-buy">
+           <div class="shop-item-worth">2 900 руб.</div><a class="btn btn-buy" href="#">Купить</a>
+         </div>
+          <p class="big-text">В набор входят:</p>
+          <ul class="item-description-custom-list">
             <li>
               Средство для умывания (50 мл)
             </li>
@@ -86,22 +91,22 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
-          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-          <a href="#">Где нас найти?</a><br>
+          Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
           Телефон: +7 (495) 666-02-62
         </section>
         <section class="footer-social">
           <p>Давайте дружить!</p>
-          <a class="social-btn social-btn-vk" href="#"><img src="img/vk.png" width="12" height="12" alt="ВКонтакте"></a>
-          <a class="social-btn social-btn-fb" href="#"><img src="img/fb.png" width="12" height="12" alt="Фэйсбук"></a>
-          <a class="social-btn social-btn-inst" href="#"><img src="img/inst.png" width="12" height="12" alt="Инстаграм"></a>
+          <a class="social-btn social-btn-vk" href="#">ВКонтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фэйсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
-          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          <a class="btn" href="https://htmlacademy.ru">HTMLAcademy.ru</a>
         </section>
       </div>
     </footer>
