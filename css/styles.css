@@ -1222,6 +1222,8 @@ h2 {
 
   background: #f8f3f0 url("img/pattern-white.jpg");
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+
+  z-index: 1000;
 }
 
 .modal-content-show {
